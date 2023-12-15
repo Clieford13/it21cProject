@@ -1,9 +1,16 @@
 package Abstract;
 
-public class Abstract_Apple extends Abstract_Fruits {
+abstract class Abstract_Fruits{
+    public abstract void sustansyado();    
+
     
-    public void sustansyado(){
-        System.out.println(" makapalit ra kag bisan 10 ");
-        System.out.println(" galagorot pag kaunon ");
+    public void tamis(){
+        System.out.println(" Ganahan sa tanang tao ");
+    }
+    public void mapalit(){
+        System.out.println(" Daghan baligya sa tindahan!");
+    }
+    public void lami(){
+        System.out.println(" Favorite sa kadaghanan ");
     }
 }
